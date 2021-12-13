@@ -6,3 +6,5 @@ export * from './shared';
 export * from './listar';
 //exportando o modulo de roteamento
 export * from './tarefas-routing.module'
+//exportando o componente cadastrar tarefa
+export * from './cadastrar';
