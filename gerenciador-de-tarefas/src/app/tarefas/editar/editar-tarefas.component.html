@@ -22,8 +22,8 @@
         *ngIf="nome.errors && (nome.dirty || nome.touched)"
         class="alert alert-danger"
       >
-        <div [hidden]="!nome.errors['require']">Digite a tarefa</div>
-        <div [hidden]="!nome.errors">A tarefa deve conter ao menos 5 caracteres</div>
+        <div [hidden]="!nome.errors.required">Digite a tarefa</div>
+        <div [hidden]="!nome.errors.required">A tarefa deve conter ao menos 5 caracteres</div>
       </div>
 
       <div class="form-group text-center">
