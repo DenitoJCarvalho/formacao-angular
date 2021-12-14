@@ -1,8 +1,6 @@
 /*
   ? em typescript informa que o parâmetro é opcional
 */
-
-
 export class Tarefa {
   constructor(
     public id?: number,
@@ -10,3 +8,4 @@ export class Tarefa {
     public concluida?: boolean
   ) { }
 }
+

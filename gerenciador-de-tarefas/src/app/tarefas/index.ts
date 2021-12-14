@@ -8,3 +8,6 @@ export * from './listar';
 export * from './tarefas-routing.module'
 //exportando o componente cadastrar tarefa
 export * from './cadastrar';
+//exportando o componente editar tarefas
+export * from './editar';
+
