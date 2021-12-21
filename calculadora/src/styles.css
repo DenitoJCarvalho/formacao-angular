@@ -22,7 +22,7 @@ body {
 
 h2 {
   width: var(--full);
-  height: 3rem;
+  height: 10rem;
   padding: 0.3125rem;
   background-color: yellow;
   text-transform: capitalize;

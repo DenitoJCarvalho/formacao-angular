@@ -80,7 +80,7 @@ export class CalculadoraComponent implements OnInit {
    * @param string operacao
    * @return void
    */
-  definirOpercao(operacao: string): void {
+  definirOperacao(operacao: string): void {
     //Apenas define a operação caso não esita uma
     if (this.operacao === null) {
       this.operacao = operacao;
