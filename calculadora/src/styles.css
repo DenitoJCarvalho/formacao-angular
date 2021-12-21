@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --full: 100%;
+  --medium: 50%;
+
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+:is(h2) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  width: var(--full);
+  height: 3rem;
+  padding: 5px;
+  background-color: yellow;
+
+}
+
+body::after::before {
+  content: '';
+  display: table;
+  clear: both;
+}
