@@ -30,8 +30,7 @@ export class ConversorService {
    * @param Conversao conversao
    * @return number
    */
-  cotacaoPara(conversaoResponse: ConversaoResponse,
-    conversao: Conversao): number {
+  cotacaoPara(conversaoResponse: ConversaoResponse, conversao: Conversao): number {
     if (conversaoResponse === undefined) {
       return 0;
     }
@@ -52,8 +51,7 @@ export class ConversorService {
       return '0';
     }
 
-    return (1 / conversaoResponse.rates[conversao.moedaPara])
-      .toFixed(4);
+    return (1 / conversaoResponse.rates[conversao.moedaPara]).toFixed(4);
   }
 
   /**
